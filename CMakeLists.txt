@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(libtimequeue)
+set(CMAKE_CXX_STANDARD 11)
+set (CMAKE_CXX_FLAGS "-Wall -Weffc++ -Wextra -pedantic")
+include_directories(include)
+add_executable(example example.cpp )
